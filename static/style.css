@@ -1,0 +1,62 @@
+body{
+    background-image: url(img/bg-img/welcome-bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+}
+
+#hometext{
+    font-size: 3rem;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+#usr1{
+    border-radius: 10px;
+    border:none;
+    background-color: rgb(0, 255, 179);
+    height:12vh;
+}
+#usr2{
+    border-radius: 10px;
+    border:none;
+    background-color: rgb(25, 151, 255);
+    height:12vh;
+    margin-left: 1rem;
+}
+
+.linklabel{
+    margin-top:-1rem
+}
+#link1{
+    color:blue;
+    font-weight: lighter;
+}
+#link2{
+    color:blue;
+    float:right;
+    font-weight: lighter;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color:rgb(255, 255, 255);
+    opacity: 0.9;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color:white;
+  }
+button[value=Send]{
+    border-radius: 10px;
+    border:none;
+    color:white;
+    background-color: rgb(255, 5, 5);
+    font-size: 1rem;
+    margin:3rem 12rem ;
+    border: none;
+    color: white;
+    padding: 10px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
